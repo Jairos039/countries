@@ -1,0 +1,55 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="container">
+    <div class="row row-cols-2 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 g-6">
+
+        <div class="col">
+            <div class="card h-100 rounded-0">
+                <div class="link link-dark pe-auto" data-bs-toggle="modal" data-bs-target="#modal_162">
+                    <img src="https://flagcdn.com/cx.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2 class="card-title h5 text-center m-0">Christmas Island</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade text-dark" id="modal_162" tabindex="-1" aria-labelledby="modal_162" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Christmas Island</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img src="https://flagcdn.com/cx.svg" class="img-fluid">
+                            </div>
+                            <div class="col-lg-7 align-self-center">
+                                <span>Official name: </span>
+                                <h2>Territory of Christmas Island</h2>
+
+                            </div>
+                            <div class="col-12 mt-4">
+                                <ul>
+                                    <li>Capital: Flying Fish Cove</li>
+                                    <li>Currencies: Australian dollar</li>
+                                    <li>Languages: English</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary rounded-0" data-bs-dismiss="modal">Close</button>
+                        <a type="button" class="btn btn-primary rounded-0" href="/countries/Christmas_Island">More
+                            Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
